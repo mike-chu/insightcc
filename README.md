@@ -39,7 +39,7 @@ Below is the performance comparison of `insort()` between blist and built-in lis
 
 |Use Case|blist|list|
 |--------|-----|----|
-|Maintain a sorted lists with bisect.insort|O(log~2~ n)|O(n)|
+|Maintain a sorted lists with bisect.insort|O(log<sub>2</sub> n)|O(n)|
 
 In the `run.sh`, we have the following line to ensure this dependent module intalled in the platform before the running.
 
